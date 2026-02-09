@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مملكة العرب | القوانين</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>مرحباً بكم في مملكة العرب</h1>
+  <p class="owners">Owners: laed7r • omarkoka1</p>
+</header>
+
+<nav>
+  <button onclick="showSection('admin')">قوانين الإدارة</button>
+  <button onclick="showSection('moderation')">قوانين الرقابة</button>
+  <button onclick="showSection('army')">قوانين العساكر</button>
+  <button onclick="showSection('criminals')">قوانين المجرمين</button>
+  <button onclick="showSection('medics')">قوانين المسعفين</button>
+</nav>
+
+<main>
+
+  <!-- الأقسام -->
+  <section id="admin" class="content active">...</section>
+  <section id="moderation" class="content">...</section>
+  <section id="army" class="content">...</section>
+  <section id="criminals" class="content">...</section>
+  <section id="medics" class="content">...</section>
+
+  <!-- قسم التقديم -->
+  <section id="apply" class="content active">
+    <h2>التقديم على الوظائف</h2>
+    <p>للتقديم يرجى الدخول إلى سيرفر الديسكورد</p>
+    <button class="apply-btn" id="applyBtn">التقديم على الوظائف</button>
+  </section>
+
+</main>
+
+<footer>
+  <p>© مملكة العرب - جميع الحقوق محفوظة</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
