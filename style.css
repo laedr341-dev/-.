@@ -1,0 +1,16 @@
+.apply-btn {
+  margin-top: 15px;
+  background: gold;
+  color: #000;
+  border: none;
+  padding: 12px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 6px;
+}
+
+.apply-btn:hover {
+  background: #ffd700;
+  transform: scale(1.05);
+}
